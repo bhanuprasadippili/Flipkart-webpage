@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+#home {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgb(82, 159, 227);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav section {
+    width: 8rem;
+}
+
+nav section img {
+    width: 8rem;
+}
+
+nav  section h4 {
+    width: 8rem;
+    font-size: 1rem;
+}
+
+nav section h4 img {
+    width: 1.2rem;
+}
+
+nav section span {
+    color:yellow;
+}
+
+nav p {
+    width: 50rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+}
+
+nav p input {
+    width: 45rem;
+    height: auto;
+    border: none;
+    padding-left: .5rem;
+    padding: 1rem;
+}
+
+nav p ion-icon {
+    font-size: 1.7rem;
+    color: rgb(82, 159, 227);
+}
+
+nav button {
+    width: 15rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(82, 159, 227);
+    border: none;
+    background-color: white;
+}
+
+nav ul {
+    width: 30rem;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    list-style: none;
+}
+
+nav ul select {
+    font-size: 1.4  rem;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+#li {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+#li ion-icon {
+    font-size: 1.8rem;
+}
+
+#parent {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#parent  section {
+    width: 14rem;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+#parent section img {
+    width: 6rem;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+    padding: 2rem 1rem;
+    background-color: lightgray;
+}
+
+#image img {
+    width: 100%;
+}
+
+#bank {
+    width: 100%;
+}
+#bank img {
+    width: 100%;
+   
+}
+
+#deals {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: lightgray;
+}
+
+#deals img {
+    width: 100%;
+    padding: .5rem 1rem;
+    background-color: lightgray;
+}
+
+#offers {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#offers aside {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: flex-end;
+    gap: 1rem;
+}
+
+#offers aside button {
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    background-color: rgb(82, 159, 227);
+    border: none;
+    font-weight: bold;
+}
+
+#offers aside h2 {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+#offers aside article {
+    width: 18rem;
+    height: 10rem;
+    border: 1px solid black;
+    background: linear-gradient(to bottom, yellow,violet 30%);
+}
+
+#offers section {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+#offers section img {
+    width: 13rem;
+    height: 18rem;
+}
+
+#offers section:hover img {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+#offers aside img {
+    width: 18rem;
+}
+
+#offers section h4 {
+    font-size: 1.5rem;
+}
+
+#offers section span {
+    font-size: 1.6rem;
+    color: green;
+}
+
+#offers section p {
+    font-size: 1.4rem;
+    filter: opacity(.8);
+}
+
+#selling {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: lightgray;
+}
+
+#selling img {
+    width: 100%;
+    padding: .5rem 1rem;
+    background-color: lightgray;
+}
+
+#rush {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: lightgray;
+}
+
+#rush img {
+    width: 100%;
+    padding: .5rem 1rem;
+    background-color: lightgray;
+}
+
+#phones {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: lightgray;
+}
+
+#phones img {
+    width: 100%;
+    padding: .5rem 1rem;
+    background-color: lightgray;
+}
+
+#brands {
+    width: 100%;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem 3rem;
+}
+
+#brands h2 {
+    font-size: 1.8rem;
+}
+
+#brands aside {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#brands img {
+    width: 40rem;
+}
+
+#brands aside img:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+#top {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: lightgray;
+}
+
+#top img {
+    width: 100%;
+    padding: .5rem 1rem;
+    background-color: lightgray;
+}
+
+#best {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: lightgray;
+}
+
+#best img {
+    width: 100%;
+    padding: .5rem 1rem;
+    background-color: lightgray;
+}
+
+
+#work {
+    width: 100%;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem 3rem;
+    border: 5px solid lightgray;
+}
+
+#work h2 {
+    font-size: 1.8rem;
+}
+
+#work aside {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#options {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+
+}
+#options img {
+    width: 100%;
+    padding: .5rem;
+    background-color: lightgray;
+}
+
+#work img {
+    width: 40rem;
+}
+
+#work aside img:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+
+#more {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+#more p {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    filter: opacity(0.7);
+}
+
+footer {
+    width: 100%;
+    display: grid;
+    color: white;
+    background-color: black;
+    gap: 3rem;
+}
+
+footer aside {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+
+footer ul {
+    width: 15rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    list-style: none;
+    gap: 1.5rem;
+    font-size: 1.3rem;
+}
+
+footer ul li:hover {
+    text-decoration: underline;
+}
+
+footer section {
+    width: 18rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.7rem;
+}
+
+footer section h5 {
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+footer section p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+footer section span {
+    color: rgb(69, 94, 235);
+}
+
+.shade {
+    padding-bottom: 1rem;
+    filter: opacity(.7);
+}
+
+footer hr {
+    width: 100%;
+    border: .5px solid white;
+}
+
+footer article {
+    width: 100%;
+    height: 7rem;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer article ion-icon {
+    color: gold;
+    font-size: 1.6rem;
+}
